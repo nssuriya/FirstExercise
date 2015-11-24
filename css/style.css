@@ -1,0 +1,189 @@
+
+
+body {
+	font-size: 17px;
+	text-align: justify;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+nav li {
+	width: 90%;
+	display : inline;
+
+}
+nav {
+	float : left;
+	margin-top: 20px;
+}
+ a{
+
+	text-decoration: none;
+	color: black;
+	font-family: cursive sans-serif;
+	font-size: 18px;
+}
+.navmargin {
+	margin-left: 500px;
+}
+
+.grid_4 img{
+	margin-top: 80px;
+	width : 90%;
+	height : 30%;
+	border : 10%;
+	margin-bottom: 20px;
+
+}
+
+header{
+	height : 100px;
+	width: 100%;
+
+	}
+
+header h1{
+	width : 20%;
+	float :left;
+	font-size: 35px;
+	margin-top: 20px;
+
+
+}
+footer{
+	height :175px;
+	background-color: c0c0c0;
+	text-decoration: none;
+
+}
+
+footer li{
+	list-style: none;
+}
+.section1 {
+	padding-top: 40px;
+	float: left;
+	padding-left: 194.5px;
+}
+
+.section2,.section3{
+	padding-top: 40px;
+	float: left;
+	padding-left: 175px;
+}
+footer a,footer li{
+	font-size: 15px;
+}
+
+
+
+.map img{
+	float: left;
+	padding-top: 40px;
+	padding-left:100px;
+	widows:  100px;
+	height : 100px;
+}
+
+
+
+
+#pagetitle{
+	height : 120px;
+	background-color: rgb(241, 241, 241);
+	float: left;
+	width:100%;
+	text-align: center;
+
+}
+#pagetitle,h1,h5,h6 {
+	color: b6b6b4;
+}
+
+
+#pagetitle h2{
+margin-top: 30px;
+margin-bottom: 5px;
+}
+#pagetitle p {
+	margin-left: 150px;
+
+}
+
+.hero{
+	margin-bottom: 50px;
+	background-color:rgb(241, 241, 241);
+}
+
+.heroimage{
+	background: url("../img/hero2.jpg") no-repeat;
+	height: 580px;
+	width: 960px;
+	margin-left: 194.5px;
+	opacity: 0.8
+}
+
+.heroimage h3 {
+	opacity: 1;
+	margin: 10px;
+	color: white;
+	font-family: cursive;
+}
+
+.hero h2{
+	text-align: center;
+}
+
+.first{
+	margin-left: 0px;
+}
+.last{
+	margin-right: 0px;
+	width: 320px !important;
+}
+.insights{
+	overflow: hidden;
+}
+.insights img{
+
+
+	float: left;
+}
+ .insights h2,.insights p {
+
+	float:left;
+}
+.margin {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.padding{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+h2,h4,h3{
+	color: black;
+}
+
+.continue{
+	margin-left: 0px;
+}
+
+.insights img {
+	height: 450px;
+}
+
+
+.portfolio img{
+height: 350px;
+
+}
+.portfolio1 img{
+height: 275px;
+
+}
+.padding2 {
+	padding-top: 200px;
+}
