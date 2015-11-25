@@ -1,117 +1,98 @@
-
-
+/*------------------------------------------
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-------------------CSS HELP-----------------
+1.GENERAL SECTION
+2.HEADER SECTION
+3.PAGETITLE SECTION
+4.HERO SECTION
+5.INSIGHT AND STORE
+6.PORTFOLIO
+7.FOOTER
+8.OTHERS
+/*-----------------------------------------
+ !!!!!!!!!!!!1.GENERAL SECTION!!!!!!!!!!!!!!!
+ ------------------------------------------*/
 body {
 	font-size: 17px;
 	text-align: justify;
 	font-family: 'Open Sans', sans-serif;
-
 }
-
 nav li {
-	width: 90%;
 	display : inline;
-
 }
 nav {
 	float : left;
-	margin-top: 20px;
+	width: 80%;
+	padding-top: 8px;
 }
- a{
-
+a{
 	text-decoration: none;
 	color: black;
 	font-family: cursive sans-serif;
 	font-size: 18px;
 }
-.navmargin {
-	margin-left: 500px;
-}
 
-.grid_4 img{
-	margin-top: 80px;
-	width : 90%;
-	height : 30%;
-	border : 10%;
-	margin-bottom: 20px;
 
-}
+/*-----------------------------------------
+##########End of General Section###########
+-------------------------------------------*/
 
+/*-----------------------------------------
+ !!!!!!!!!!!!2.HEADER SECTION!!!!!!!!!!!!!!!
+ ------------------------------------------*/
 header{
-	height : 100px;
+	height :80px;
 	width: 100%;
-
-	}
+}
 
 header h1{
 	width : 20%;
 	float :left;
-	font-size: 35px;
-	margin-top: 20px;
-
-
-}
-footer{
-	height :175px;
-	background-color: c0c0c0;
-	text-decoration: none;
-
+	font-size: 40px;
 }
 
-footer li{
-	list-style: none;
-}
-.section1 {
-	padding-top: 40px;
-	float: left;
-	padding-left: 194.5px;
+.navmargin {
+	margin-left: 500px;
 }
 
-.section2,.section3{
-	padding-top: 40px;
-	float: left;
-	padding-left: 175px;
-}
-footer a,footer li{
-	font-size: 15px;
-}
+/*-----------------------------------------
+##########End of Header ###################
+-------------------------------------------*/
 
-
-
-.map img{
-	float: left;
-	padding-top: 40px;
-	padding-left:100px;
-	widows:  100px;
-	height : 100px;
-}
-
-
+/*-----------------------------------------
+!!!!!!!!!!!!3.PAGE TITLE SECTION!!!!!!!!!!!!!!!
+------------------------------------------*/
 
 
 #pagetitle{
 	height : 120px;
 	background-color: rgb(241, 241, 241);
-	float: left;
 	width:100%;
 	text-align: center;
 
 }
-#pagetitle,h1,h5,h6 {
+#pagetitle,h1 {
 	color: b6b6b4;
 }
 
 
 #pagetitle h2{
-margin-top: 30px;
-margin-bottom: 5px;
+	padding-top: 28px;
+	margin-bottom: 0px;
 }
 #pagetitle p {
 	margin-left: 150px;
-
 }
+/*-----------------------------------------
+##########End of Page Title################
+-------------------------------------------*/
+
+/*-----------------------------------------
+!!!!!!!!!!!!4.HERO SECTION!!!!!!!!!!!!!!!
+------------------------------------------*/
 
 .hero{
-	margin-bottom: 50px;
+
 	background-color:rgb(241, 241, 241);
 }
 
@@ -124,14 +105,14 @@ margin-bottom: 5px;
 }
 
 .heroimage h3 {
-	opacity: 1;
-	margin: 10px;
 	color: white;
 	font-family: cursive;
+	margin-left: 5px;
+	margin-bottom: 10px;
 }
 
-.hero h2{
-	text-align: center;
+.hero h3 {
+	margin-bottom: 10px;
 }
 
 .first{
@@ -141,30 +122,21 @@ margin-bottom: 5px;
 	margin-right: 0px;
 	width: 320px !important;
 }
+
+/*-----------------------------------------
+#############End of Hero####################
+-------------------------------------------*/
+
+
+/*-----------------------------------------
+!!!!!!!!5.INSIGHTS AND STORE SECTION!!!!!!!!
+------------------------------------------*/
+
 .insights{
-	overflow: hidden;
-}
-.insights img{
-
-
-	float: left;
-}
- .insights h2,.insights p {
-
-	float:left;
-}
-.margin {
 	margin-top: 20px;
-	margin-bottom: 20px;
 }
-
-.padding{
-	padding-left: 5px;
-	padding-right: 5px;
-}
-
-h2,h4,h3{
-	color: black;
+.insights img,.insights h2,.insights p{
+	float: left;
 }
 
 .continue{
@@ -174,16 +146,106 @@ h2,h4,h3{
 .insights img {
 	height: 450px;
 }
+/*-----------------------------------------
+#############End of Insights################
+-------------------------------------------*/
 
+/*-----------------------------------------
+!!!!!!!!!!!!6.PORTFOLIO SECTION!!!!!!!!!!!!!
+------------------------------------------*/
+.portfolio .grid_4{
+	padding-bottom: 5px;
+}
 
 .portfolio img{
 height: 350px;
-
 }
+
 .portfolio1 img{
 height: 275px;
+}
 
-}
-.padding2 {
-	padding-top: 200px;
-}
+.portfolio img ,.portfolio1 img{
+	 border-radius: 10px;
+	 border: 1px solid black;
+ }
+
+/*-----------------------------------------
+#############End of Portfolio###############
+ ------------------------------------------*/
+
+/*-----------------------------------------
+  !!!!!!!!!!!!7.FOOTER SECTION!!!!!!!!!!!!!!!
+------------------------------------------*/
+
+ footer{
+ 	height :175px;
+ 	background-color: c0c0c0;
+ 	text-decoration: none;
+ 	margin-top: 50px;
+ }
+
+ footer li{
+ 	list-style: none;
+ }
+
+ .section1 {
+ 	padding-top: 40px;
+ 	float: left;
+ 	padding-left: 194.5px;
+ }
+
+ .section2,.section3{
+ 	padding-top: 40px;
+ 	float: left;
+ 	padding-left: 175px;
+ }
+ footer a,footer li{
+ 	font-size: 15px;
+ }
+ .map img{
+ 	float: left;
+ 	padding-top: 40px;
+ 	padding-left:100px;
+ 	widows:  100px;
+ 	height : 100px;
+ }
+ /*-----------------------------------------
+ ##########End of Footer ###################
+ -------------------------------------------*/
+
+ /*-----------------------------------------
+ !!!!!!!!!!!!!!!8.OTHERS!!!!!!!!!!!!!!!!!!!!!
+ ------------------------------------------*/
+ .top-margin{
+ margin-top: 40px;
+ }
+
+ .padding2 {
+ 	padding-top: 200px;
+ }
+
+ .padding{
+ 	padding-left: 5px;
+ }
+
+ h2,h4,h3{
+ 	color: black;
+ }
+
+ .grid_4 img{
+ 	width : 90%;
+ }
+ .wrap .grid_4 h4{
+ 	padding-top: 20px;
+ }
+ .grid_4 h4{
+ 	margin-bottom: 0px;
+ }
+
+ /*-----------------------------------------
+ #############End of Others####################
+ -------------------------------------------*/
+
+
+ /*-----------End of Style CSS--------------*/
